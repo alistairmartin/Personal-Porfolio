@@ -1,0 +1,60 @@
+/*
+Error: File to import not found or unreadable: compass/css3.
+       Load path: /Users/alistair/Google Drive/WEBSITE Alistair Martin Designs Portfolio/style
+        on line 1 of style/beforeandafter.scss
+
+1: @import "compass/css3";
+2: 
+3: .before_after_slider {
+4:   position: relative;
+5:   margin: 60px;
+6:   width: 640px;
+
+Backtrace:
+style/beforeandafter.scss:1
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/bin/sass:23:in `load'
+/Users/alistair/.rvm/gems/ruby-2.3.1@global/bin/sass:23:in `<main>'
+/Users/alistair/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/alistair/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: compass/css3.\A        Load path: /Users/alistair/Google Drive/WEBSITE Alistair Martin Designs Portfolio/style\A         on line 1 of style/beforeandafter.scss\A \A 1: @import \"compass/css3\";\A 2: \A 3: .before_after_slider {\A 4:   position: relative;\A 5:   margin: 60px;\A 6:   width: 640px;"; }
