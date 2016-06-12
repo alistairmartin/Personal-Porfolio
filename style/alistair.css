@@ -1,0 +1,25 @@
+/*/ Sections /*/
+
+.section{
+  text-align: center;
+}
+
+.section-design{
+  background-color: red;
+}
+
+.section-frontend{
+  background-color: blue;
+}
+
+.section-backend{
+  background-color: green;
+}
+
+.section-alistair{
+  background-color: orange;
+}
+
+.section-portfolios{
+  background-color: purple;
+}
