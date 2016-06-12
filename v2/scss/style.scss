@@ -1,11 +1,10 @@
-
 @import "compass/css3";
 
 .before_after_slider {
   position: relative;
   margin: 60px;
-  width: 100%;
-  height: 100%;
+  width: 640px;
+  height: 400px;
   & > * {
     position: absolute;
   }

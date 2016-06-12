@@ -28,3 +28,29 @@
 .section-portfolios{
   background-color: purple;
 }
+
+
+
+///
+
+.container{
+
+}
+
+.container-main{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  position: absolute;
+  height: 70%;
+  top: 0;
+}
+
+.container-caraosuel{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  position: absolute;
+  height: 30%;
+  bottom: 0;
+}

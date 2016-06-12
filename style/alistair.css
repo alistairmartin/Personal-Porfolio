@@ -1,23 +1,61 @@
 /*/ Sections /*/
-.section {
-  text-align: center; }
 
-.section-intro {
-  background-color: lightgrey; }
 
-.section-design {
-  background-color: red; }
+.section{
 
-.section-frontend {
-  background-color: blue; }
+}
 
-.section-backend {
-  background-color: green; }
+.section-intro{
+  background-color: lightgrey;
+}
 
-.section-alistair {
-  background-color: orange; }
+.section-design{
+  background-color: red;
+}
 
-.section-portfolios {
-  background-color: purple; }
+.section-frontend{
+  background-color: blue;
+}
 
-/*# sourceMappingURL=alistair.css.map */
+.section-backend{
+  background-color: green;
+}
+
+.section-alistair{
+  background-color: orange;
+}
+
+.section-portfolios{
+  background-color: purple;
+}
+
+
+
+.container{
+height: 100%;
+width: 100%;
+}
+
+.container-main{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  height: 70%;
+
+}
+
+.container-caraosuel{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  height: 30%;
+  z-index: 100;
+
+}
+
+.image-responsive{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+
+}

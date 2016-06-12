@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="style/animate.css" />
-    <link rel="stylesheet" type="text/css" href="style/alistair.scss" />
-    <link rel="stylesheet" type="text/css" href="style/owl.carousel.css" />
-    <link rel="stylesheet" type="text/css" href="style/beforeandafter.scss" />
+    <link rel="stylesheet" type="text/css" href="style/alistair.css" />
+    <link rel="stylesheet" type="text/css" href="style/owl.carousel.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
@@ -19,8 +21,8 @@
 
     <script type="text/javascript" src="cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="javascript/owl.carousel.js"></script>
-    <script type="text/javascript" src="javascript/beforeandafter.js"></script>
+
+
 
     <title></title>
 </head>
@@ -30,27 +32,66 @@
 
     <div id="fullpage">
         <div class="section section-intro">
+            <p class="hello">HELLO!</p>
 
-            <div class="before_after_slider">
-                <div class="color">
-                    <img src="http://i.picresize.com/images/2013/04/06/9pX4.png" width="640" height="400" alt="" />
-                </div>
-                <div class="black_white">
-                    <img src="http://i.picresize.com/images/2013/04/06/2sJzq.png" width="640" height="400" alt="black_white" />
-                </div>
-            </div>
 
         </div>
 
         <div class="section section-design">
             <div class="slide">
-                <audio data-autoplay>
-                    <source src="video/speed.mp3" type="audio/ogg">
-                </audio>
-                <!-- <iframe width="100%" height="100%" src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=0">
-                </iframe> -->
+                <div class="container">
+
+                    <div class="container-main">
+                      <img src="http://www.alistairmartinphotography.com/images/232.jpg" class="image-responsive">
+                    </div>
+                    <div class="container-caraosuel">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://www.alistairmartinphotography.com/images/3%20crap.jpg" class="image-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide"> Slide 2 </div>
+
+
+            <div class="slide">
+
+
+            </div>
             <div class="slide"> Slide 3 </div>
             <div class="slide"> Slide 4 </div>
         </div>
@@ -61,13 +102,36 @@
         <div class="section section-portfolios">Some section</div>
     </div>
 
+    <script type="text/javascript" src="javascript/owl.carousel.js"></script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+
+        });
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 5
+                },
+                1000: {
+                    items: 7
+                }
+            }
+
+        })
+    </script>
+
 </body>
 
-<script>
-    $(document).ready(function() {
-        $('#fullpage').fullpage();
-
-    });
-</script>
 
 </html>

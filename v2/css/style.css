@@ -1,0 +1,16 @@
+/* line 3, ../scss/style.scss */
+.before_after_slider {
+  position: relative;
+  margin: 60px;
+  width: 640px;
+  height: 400px;
+}
+/* line 8, ../scss/style.scss */
+.before_after_slider > * {
+  position: absolute;
+}
+
+/* line 13, ../scss/style.scss */
+.black_white {
+  overflow: hidden;
+}
