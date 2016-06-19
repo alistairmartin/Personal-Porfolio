@@ -1,5 +1,7 @@
 /*/ Sections /*/
-
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 .section{
 
@@ -34,6 +36,16 @@
 .container{
 height: 100%;
 width: 100%;
+}
+
+.container-intro{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.container-intro > h1{
+  font-weight: 100;
 }
 
 .container-main{
