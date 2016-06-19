@@ -1,0 +1,73 @@
+/*/ Sections /*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.section{
+
+}
+
+.section-intro{
+  background-color: lightgrey;
+}
+
+.section-design{
+  background-color: red;
+}
+
+.section-frontend{
+  background-color: blue;
+}
+
+.section-backend{
+  background-color: green;
+}
+
+.section-alistair{
+  background-color: orange;
+}
+
+.section-portfolios{
+  background-color: purple;
+}
+
+
+
+.container{
+height: 100%;
+width: 100%;
+}
+
+.container-intro{
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.container-intro > h1{
+  font-weight: 100;
+}
+
+.container-main{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  height: 70%;
+
+}
+
+.container-caraosuel{
+  display: block;
+  border: 2px black solid;
+  width: 100%;
+  height: 30%;
+  z-index: 100;
+
+}
+
+.image-responsive{
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+
+}

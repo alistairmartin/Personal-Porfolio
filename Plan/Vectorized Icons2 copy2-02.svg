@@ -10,6 +10,7 @@
 <path id="Computer" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M286.7,117.4H135.4
 	c-6.6,0-12,5.4-12,12V248c0,6.6,5.4,12,12,12h44.4v18.3H242V260h44.7c6.6,0,12-5.4,12-12V129.4C298.7,122.8,293.3,117.4,286.7,117.4
 	z M179.9,260H242"/>
+<path id="Inner_Computer" fill="none" stroke="#000000" stroke-miterlimit="10" d="M292.2,251.6H131V126.7h161.2V251.6z"/>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M136.6,145.2h112.5v3.3H136.6V145.2z"/>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M136.6,155h147.3v3.3H136.6V155z"/>
 <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M136.6,164.9h51.5v3.3h-51.5V164.9z"/>
