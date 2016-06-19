@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>SVG Test</title>
+
+    <script type="text/javascript" src="_build.js"></script>
+    <script type="text/javascript" src="pathformer.js"></script>
+    <script type="text/javascript" src="vivus.js"></script>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+
+
+</head>
+
+
+<body>
+
+    <style>
+        #my-svg2:hover {
+            transform: scale(1.3);
+        }
+
+        .test {
+            transition: fill 1s ease;
+            stroke: #231f20;
+            stroke-miterlimit: 10;
+        }
+
+        .test {
+            border: 2px red solid;
+        }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Icon Test PHOTO -->
+    <svg id="my-svg5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 500 500">
+        <path id="Outer_Body" class="test" fill="#fff" stroke="#000" stroke-width="2" stroke-miterlimit="10" d="M313.6,160.5c0-6.6-5.4-12-12-12
+          h-47.2c-6.3,0-11.4-5.1-11.4-11.4c0-6.3-5.1-11.4-11.4-11.4h-41.3c-6.3,0-11.4,5.1-11.4,11.4s-5.1,11.4-11.4,11.4h-47.8
+          c-6.6,0-12,5.4-12,12V216l37.4,55.6h131.6l36.9-54.9L313.6,160.5L313.6,160.5z" />
+        <path id="Outer_Circle" fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M210.6,2.3
+          	c114.7,0,207.7,93,207.7,207.7s-93,207.7-207.7,207.7S2.9,324.7,2.9,210S95.9,2.3,210.6,2.3z" />
+        <path id="Outer_Circle_1_" class="test3" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M210.6,152.3
+          	c31.9,0,57.7,25.8,57.7,57.7s-25.8,57.7-57.7,57.7s-57.7-25.8-57.7-57.7S178.7,152.3,210.6,152.3z" />
+        <path id="Middle_Circle" class="test2 test3" fill="#fff" stroke="#000000" stroke-miterlimit="10" d="M210.3,165.3c24.7,0,44.7,20,44.7,44.7
+          	s-20,44.7-44.7,44.7s-44.7-20-44.7-44.7S185.6,165.3,210.3,165.3z" />
+        <path class="test2 test3" id="Inner_Circle" fill="#fff" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" d="M210.6,169.4
+          	c22.4,0,40.6,18.2,40.6,40.6s-18.2,40.6-40.6,40.6S170,232.4,170,210S188.2,169.4,210.6,169.4z" />
+
+        <path class="test2" id="Corner_Body" fill="#fff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M276.7,271.5h24.9
+          	c6.6,0,12-5.4,12-12v-42.9L276.7,271.5z M107.6,259.5c0,6.6,5.4,12,12,12H145l-37.4-55.6V259.5z" />
+        <path fill="#fff" class="test" stroke="#000000" stroke-miterlimit="10" d="M148.1,142v-2.3c0-1.8-1.5-3.3-3.3-3.3h-22.4c-1.8,0-3.3,1.5-3.3,3.3
+          	v2.3c0,1.8,1.5,3.3,3.3,3.3h22.4C146.6,145.3,148.1,143.8,148.1,142z" />
+
+        <path fill="none" class="test3" stroke="#fff" stroke-width="0.25" stroke-miterlimit="10" d="M169,148.4h89.6 M244.1,163h69.5 M176.7,163.3
+              h-69.1 M155,163.3v28.8 M155.7,227.8v43.7 M265.5,227.8v43.7 M266.1,192.1v-28.8" />
+    </svg>
+
+
+
+
+
+
+    <!-- <script>
+        new Vivus('my-svg', {
+            duration: 100
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            $('.test').attr('style', 'fill:cornflowerblue')
+
+        });
+    </script> -->
+    <script>
+        new Vivus('my-svg2', {
+            duration: 300,
+            animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            $('.test').attr('style', 'fill:black')
+
+        });
+    </script>
+    <script>
+        new Vivus('my-svg4', {
+            duration: 200,
+            type: 'async',
+            // animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            $('.test').attr('style', 'fill:black')
+
+        });
+    </script>
+    <script>
+        new Vivus('my-svg5', {
+            duration: 200,
+            type: 'async',
+            // animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            $('.test').attr('style', 'fill:black')
+            $('.test2').attr('style', 'fill:white')
+            $('.test3').attr('style', 'stroke:white')
+
+        });
+    </script>
+    <script>
+        new Vivus('my-svg6', {
+            duration: 200,
+            type: 'async',
+            // animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            $('.test').attr('style', 'fill:black')
+            $('.test2').attr('style', 'fill:white')
+
+        });
+    </script>
+    <script>
+        new Vivus('my-svg3', {
+            duration: 9000,
+            animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            // $('.test').attr('style', 'fill:black')
+
+        });
+    </script>
+
+    <script>
+        new Vivus('svglol', {
+            duration: 2000,
+            animTimingFunction: Vivus.EASE
+        }, function() {
+            // $('.test').attr('style', 'fill:black')
+            // $('.test').attr('style', 'fill:black')
+
+        });
+    </script>
+
+    <!-- <script>
+        new Vivus('letters', {
+            duration: 100
+        }, function() {
+            $('#tletter').attr('style', 'fill:black')
+            $('#hletter').attr('style', 'fill:black')
+        });
+    </script> -->
+
+</body>
+
+</html>

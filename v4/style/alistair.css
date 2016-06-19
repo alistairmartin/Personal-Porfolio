@@ -1,73 +1,84 @@
-/*/ Sections /*/
-body{
+body, h1, h2, h3, h4, h5{
   font-family: 'Roboto', sans-serif;
+  letter-spacing:3px;
 }
 
-.section{
+/* General */
 
-}
+.line{
+  width: 100%;
+  height: 2px;
+  background: black;
 
-.section-intro{
-  background-color: lightgrey;
-}
-
-.section-design{
-  background-color: red;
-}
-
-.section-frontend{
-  background-color: blue;
-}
-
-.section-backend{
-  background-color: green;
-}
-
-.section-alistair{
-  background-color: orange;
-}
-
-.section-portfolios{
-  background-color: purple;
+  max-width: 400px;
+  margin: -15px auto;
 }
 
 
+/* Containers */
 
 .container{
-height: 100%;
-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.container-intro{
-  text-align: center;
-  margin: 0 auto;
+.container-left, .container-right{
+  width: 49%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container-right > div {
+  width: 100%;
+  height: 100%;
+}
+
+.container-right > div > iframe{
+  position: relative;;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.container-left-intro{
+  height: 50%;
+  display: block;
 
 }
 
-.container-intro > h1{
+.container-left-intro-inner{
+  position: relative;;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.container-left-intro-inner > div > h1{
+  margin: -5px;
+}
+
+
+/* Introduction */
+
+
+.intro-title-bold{
+  font-weight: 900;
+  text-transform: uppercase;
+    text-align: center;
+}
+
+.intro-title-thin > h1{
   font-weight: 100;
-}
-
-.container-main{
-  display: block;
-  border: 2px black solid;
-  width: 100%;
-  height: 70%;
+  text-transform: uppercase;
+  text-align: center;
 
 }
 
-.container-caraosuel{
-  display: block;
-  border: 2px black solid;
-  width: 100%;
-  height: 30%;
-  z-index: 100;
-
-}
-
-.image-responsive{
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-
+.intro-links > h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .9em;
 }
