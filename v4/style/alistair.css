@@ -1,125 +1,181 @@
-body, h1, h2, h3, h4, h5, h6, p{
-  font-family: 'Roboto', sans-serif;
-  letter-spacing:3px;
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
 }
-
-.front-end-container{
--webkit-transform: translate3d(-100%, 0, 0);
-transform: translate3d(-100%, 0, 0);
+.front-end-container {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
 }
 
 /* General */
 
-.line{
-  width: 100%;
-  height: 2px;
-  background: black;
-
-  max-width: 400px;
-  margin: -15px auto;
+.line {
+    width: 100%;
+    height: 2px;
+    background: black;
+    max-width: 400px;
+    margin: -15px auto;
 }
-
-a{
-   text-decoration: none;
-   color: black;
-   transition: all 1s ease;
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
 }
-
-a:hover{
-   font-size: 1.3em;
+a:hover {
+    font-size: 1.3em;
 }
-
 .fp-controlArrow {
     border-color: transparent transparent transparent rgba(9, 9, 9, 0.4);
 }
+
+.owl-carousel {
+  height:80%;
+  width: 90%;
+  margin-top: 10%;
+  border: 2px black solid;
+}
+
+.owl-controls{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+
+.owl-prev, .owl-next{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  transition: all 1s ease;
+
+}
+.owl-prev:hover, .owl-next:hover{
+  transform: scale(1.6);
+
+}
+
+.owl-nav{
+margin: 0 auto;
+width: 100%;
+}
+
+.owl-stage-outer, .owl-stage, .owl-item{
+  height: 100%;
+}
+
+.owl-background-red{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+/* Images */
+
+.image-responsive{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-height{
+  height: 100%;
+  min-height: 500px;
+}
 /* Containers */
 
-.container{
+.container {
+    width: 100%;
+    height: 100%;
+}
+.container-left, .container-right {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-right-inner{
+    width: 100%;
+    height: 100%;
+}
+.container-right> div> iframe {
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.container-left-intro {
+    height: 50%;
+    display: block;
+}
+.container-left-intro-inner {
+    position: relative;
+    ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.container-left-intro-inner> div> h1 {
+    margin: -5px;
+}
+.section-links {
+    margin-top: -70px;
+}
+.section-links> h5 {
+    transition: all 1s ease;
+}
+.section-links> a> p {
+    font-size: 0.4em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: -3em;
+    color: black;
+}
+.section-content-description {
+    font-size: .5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: -3em;
+    padding-left: 5em;
+    color: black;
+}
+
+.section-content-image-grid3{
   width: 100%;
-  height: 100%;
-}
-
-.container-left, .container-right{
-  width: 49%;
-  height: 100%;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.container-right > div {
-  width: 100%;
-  height: 100%;
-}
-
-.container-right > div > iframe{
-  position: relative;;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2em;
-}
-
-.container-left-intro{
-  height: 50%;
+  height:33%;
   display: block;
-
+  position: relative;
+  background: blue;
+  border: black 4px solid;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
-.container-left-intro-inner{
-  position: relative;;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2em;
-}
-
-.container-left-intro-inner > div > h1{
-  margin: -5px;
-}
-
-.section-links{
-  margin-top: -70px;
-}
-
-.section-links > h5{
-  transition: all 1s ease;
-}
-
-.section-links > a > p{
-  font-size: 0.4em;
-text-align: center;
-text-transform: uppercase;
-font-weight: 200;
-margin-top: -3em;
-color: black;
-}
-
-
-
 /* Introduction */
 
-
-.intro-title-bold{
-  font-weight: 900;
-  text-transform: uppercase;
+.intro-title-bold {
+    font-weight: 900;
+    text-transform: uppercase;
     text-align: center;
 }
-
-.intro-title-thin > h1,h5{
-  font-weight: 100;
-  text-transform: uppercase;
-  text-align: center;
+.intro-title-thin> h1, h5 {
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
 }
-
-.intro-links > h3{
-  text-transform: uppercase;
-  text-align: center;
-  font-size: .9em;
+.intro-links> h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .9em;
 }
-
-.intro-title-minor{
-      margin-top: -.2em;
+.intro-title-minor {
+    margin-top: -.2em;
 }
-
 
 /* Front-End */

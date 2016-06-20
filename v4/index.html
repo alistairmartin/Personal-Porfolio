@@ -10,26 +10,19 @@
 
 
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-
-    <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
 
 
 
 
-
-    <link rel="stylesheet" type="text/css" href="style/alistair.css" />
     <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
-
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/animate.css" />
-
-    <script src="javascript/jquery.easings.min.js"></script>
+    <link rel="stylesheet" href="style/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="style/alistair.css" />
 
 
     <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-    <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
+
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,500,300,100' rel='stylesheet' type='text/css'>
 
@@ -70,9 +63,11 @@
 
 
     <!-- JAVASCRIPT -->
-    <div id="header">Header</div>
+    <!-- <div id="header">Header</div> -->
 
     <div id="fullpage">
+
+
 
 
 
@@ -118,7 +113,7 @@
 
                 <div class="container-right">
                     <div class="container-right-inner" id="iframeContainer">
-                        <iframe src="http://www.alistairmartinphotography.com/IconLogo.html" style="width: 100%;height:100%; max-width:400px; max-height:400px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        <iframe class="iframe-logo" src="./svg/IconLogo.html" style="width: 100%;height:100%; max-width:400px; max-height:400px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
@@ -171,7 +166,7 @@
 
                     <div class="container-right">
                         <div class="container-right-inner" id="iframeContainer">
-                            <iframe src="http://www.alistairmartinphotography.com/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                            <iframe src="./svg/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
                         </div>
                     </div>
                 </div>
@@ -195,6 +190,13 @@
                                 <div class="intro-title-thin">
                                     <h5 class="intro-title-minor">Photo Sharing Application</h5>
                                 </div>
+                                <div class="intro-title-thin">
+                                    <a href=""><p class="<intro-title-link></intro-title-link>s"><i class="fa fa-github fax2" aria-hidden="true"></i>github - Snapper</p></a>
+                                    <a href="">
+                                        <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i>heroku - Snapper</p>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                         <div class="container-left-intro">
@@ -202,22 +204,37 @@
                             <div class="container-left-intro-inner ">
 
                                 <div class="section-content-title">
-                                  <h5>Snapper</h5>
-                                  <p>Photo Sharing Application</p>
-                                  <div>
-                                    <p class='section-content-description'>Hello</p>
-                                  </div>
 
+                                    <p class='section-content-description'><strong>Snapper</strong> is a photo uploading website where users can view other peoples photos, share and orangise them into albums.
+                                        <br>
+                                        <br> Built on <strong>Ruby Sinatra</strong> connecting to a <strong>PSQL Database</strong> to save data. The front-end used <strong>Bootstrap
+                                            3 </strong> for the responsive grid and <strong> CSS animate.</strong></p>
 
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <div class="container-right">
-                        <div class="container-right-inner" id="iframeContainer">
-                            <iframe src="http://www.alistairmartinphotography.com/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        <div class="owl-carousel owl-background-red">
+                            <div><img class="image-responsive" src="./images/snapper1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/snapper2.png"></div>
+                            <div> <img class="image-responsive" src="./images/snapper3.png"> </div>
+                            <div><img class="image-responsive" src="./images/snapper0.png"> </div>
+
+
                         </div>
+
+                        <!-- <div class="section-content-image-grid3">
+                            <img class="image-responsive" src="./images/snapper1.png">
+                        </div>
+                        <div class="section-content-image-grid3">
+                            <img class="image-responsive" src="./images/snapper2.png">
+                        </div>
+                        <div class="section-content-image-grid3">
+                            <img class="image-responsive" src="./images/snapper3.png">
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -282,8 +299,25 @@
 
 
 
-
     <!-- JAVASCRIPT -->
+    <!-- <script src="javascript/jquery.js"></script>
+     -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+
+    <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
+    <script src="javascript/jquery.easings.min.js"></script>
+    <script src="javascript/owl.carousel.min.js"></script>
+
+
+
+
+
+
 
     <script type="text/javascript">
         $(document).ready(function() {
@@ -320,9 +354,12 @@
                 }
 
             });
+
+
             var iframeSrc = $(this).attr('href');
             $('#iframeContainer').fadeOut(1000, function() {
                 $('#iframeContainer iframe').attr('src', iframeSrc);
+                $(".iframe-logo").css("display", "block");
                 $('#iframeContainer').fadeIn(1000);
             });
             return false;
@@ -331,6 +368,35 @@
 
 
 
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                navText: ["<i class='fa fa-arrow-left fa-2x' aria-hidden='true'></i>", "<i class='fa fa-arrow-right fa-2x' aria-hidden='true'></i>"],
+                nav: true,
+                responsiveClass: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true,
+                        loop: true
+                    },
+                    600: {
+                        items: 1,
+                        nav: true,
+                        loop: true
+                    },
+                    1000: {
+                        items: 1,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            })
+        });
+    </script>
 
 
 
