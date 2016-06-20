@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>SVG Logo</title>
+
+    <script type="text/javascript" src="_build.js"></script>
+    <script type="text/javascript" src="pathformer.js"></script>
+    <script type="text/javascript" src="vivus.js"></script>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+
+
+</head>
+
+
+<body>
+
+    <style>
+        .fade {
+            transition: fill 1s ease;
+        }
+    </style>
+
+    <svg version="1.1" id="icon-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 420 420" style="enable-background:new 0 0 420 420;" xml:space="preserve">
+        <path id="circle" class="Logo-Black fade" style="fill:#fff;stroke:#000000;stroke-width:3;stroke-miterlimit:10;" d="M210,3.6
+    	c114.7,0,207.7,93,207.7,207.7S324.7,419,210,419S2.3,326,2.3,211.3C2.3,96.6,95.3,3.6,210,3.6z" />
+        <path id="middle_bar" style="fill:#fff;stroke:#000000;stroke-miterlimit:10;" d="M52.8,200.6c0,3.2,3.2,5.7,7.1,5.7h118.7l28,22.5
+    	l28-22.5h111.5c3.9,0,7.1-2.6,7.1-5.7H231.7l-25,20.1l-25.1-20.2L52.8,200.6" />
+        <path id="top_triangle" style="fill:#fff;stroke:#000000;stroke-miterlimit:10;" d="M136.5,192.8h7.3l66.3-110.1l64,110.1h7.1
+    	L210.1,63L136.5,192.8z" />
+        <path id="left_arm" style="fill:#fff;stroke:#000000;stroke-miterlimit:10;" d="M124.4,214.2L66.3,316.4h3l61.6-102.2H124.4z" />
+        <path id="right_arm" style="fill:#fff;stroke:#000000;stroke-miterlimit:10;" d="M286.6,214.2L346,316.4h2.8l-55.9-102.2H286.6z" />
+    </svg>
+
+
+
+    <script>
+        new Vivus('icon-Logo', {
+            duration: 300,
+            animTimingFunction: Vivus.EASE
+        }, function() {
+            $('.Logo-White').attr('style', 'fill:white')
+            $('.Logo-Black').attr('style', 'fill:black')
+
+        });
+    </script>
+
+
+</body>
+
+</html>

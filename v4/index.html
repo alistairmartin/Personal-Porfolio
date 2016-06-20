@@ -10,14 +10,6 @@
 
 
 
-
-
-    <script type="text/javascript" src="javascript/vivus.js"></script>
-    <script type="text/javascript" src="javascript/_build.js"></script>
-    <script type="text/javascript" src="javascript/pathformer.js"></script>
-
-
-
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
@@ -28,9 +20,10 @@
 
 
 
-
-    <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="style/alistair.css" />
+    <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+
+    <link rel="stylesheet" type="text/css" href="style/animate.css" />
 
     <script src="javascript/jquery.easings.min.js"></script>
 
@@ -39,15 +32,6 @@
     <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,500,300,100' rel='stylesheet' type='text/css'>
-
-
-
-
-
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
-
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-
 
 
 
@@ -100,81 +84,153 @@
 
             <div class="container">
 
-                <div class="container-left">
+                <div class="container-left animated fadeInLeft">
 
                     <div class="container-left-intro">
 
                         <div class="container-left-intro-inner">
-
                             <div class="intro-title-bold">
                                 <h1>Alistair</h1>
                                 <h1>Martin</h1>
                             </div>
-
                             <div class="intro-title-thin">
                                 <h1>Designs</h1>
                             </div>
-
                         </div>
-
                     </div>
                     <div class="container-left-intro">
 
                         <div class="container-left-intro-inner">
 
                             <div class="intro-links">
-                                <h3>Front-end</h3>
+                                <h3><a href="#frontend" class="">Front-end</a></h3>
                                 <div class="line"></div>
-                                <h3>Design</h3>
+                                <h3><a href="#design" class="">Design</a></h3>
                                 <div class="line"></div>
-                                <h3>Photography</h3>
+                                <h3><a href="#photography" class="">Photography</a></h3>
                                 <div class="line"></div>
-                                <h3>About</h3>
+                                <h3><a href="#about" class="">About</a></h3>
+
                             </div>
-
-
-
                         </div>
-
                     </div>
                 </div>
 
-
                 <div class="container-right">
-
-                  <div class="container-right-inner">
-
-
-
-                  <iframe src="http://www.alistairmartinphotography.com/icon1.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
-
-
-</div>
-
+                    <div class="container-right-inner" id="iframeContainer">
+                        <iframe src="http://www.alistairmartinphotography.com/IconLogo.html" style="width: 100%;height:100%; max-width:400px; max-height:400px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                    </div>
                 </div>
-
-
-
             </div>
-
-
-
-
-
-
-
         </div>
 
 
         <!-- SECTION 2 FrontEnd -->
 
         <div class="section" id="section2">
+            <div class="slide" id="slide2" data-anchor="slide1">
+                <div class="container">
 
-            <iframe src="http://www.alistairmartinphotography.com/icon1.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                    <div class="container-left animated front-end-container">
+
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <h1>Front-End</h1>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="intro-title-minor">Web Development</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner ">
+
+                                <div class="section-links">
+                                    <a href="#frontend" class=""><h5>Snapper</h5>
+                                      <p>Photo Sharing Application</p></a>
+
+
+                                    <a href="#design" class=""><h5>WDI Conference</h5>
+                                        <p>Sign-Up Conference Website</p></a>
+
+
+                                    <a href="#photography" class=""><h5>SmallTalk</h5>
+                                          <p>Conversation Starter App</p></a>
+
+                                    <a href="#photography" class=""><h5>Tic Tac Toe</h5>
+                                            <p>Conversation Starter App</p></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-right">
+                        <div class="container-right-inner" id="iframeContainer">
+                            <iframe src="http://www.alistairmartinphotography.com/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div>
 
 
 
 
+            </div>
+            <div class="slide" id="slide2" data-anchor="slide2">
+                <div class="container">
+
+                    <div class="container-left">
+
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+
+                                    <h2>Snapper</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="intro-title-minor">Photo Sharing Application</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner ">
+
+                                <div class="section-content-title">
+                                  <h5>Snapper</h5>
+                                  <p>Photo Sharing Application</p>
+                                  <div>
+                                    <p class='section-content-description'>Hello</p>
+                                  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-right">
+                        <div class="container-right-inner" id="iframeContainer">
+                            <iframe src="http://www.alistairmartinphotography.com/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide3" data-anchor="slide3">
+                <h1>Slide 3</h1>
+            </div>
+            <div class="slide" id="slide3" data-anchor="slide4">
+                <h1>Slide 4</h1>
+            </div>
+            <div class="slide" id="slide3" data-anchor="slide5">
+                <h1>Slide 5</h1>
+            </div>
         </div>
 
 
@@ -235,58 +291,44 @@
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage'],
                 sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0', '#8AADDB'],
                 slidesNavigation: true,
+                afterLoad: function(anchorLink, index) {
+                    var loadedSection = $(this);
+
+                    //using index
+                    if (index == 2) {
+
+                        $(".front-end-container").addClass("fadeInLeft");
+                    }
+                    if (index == 3) {}
+                },
+                onLeave: function(index, nextIndex, direction) {
+                    var leavingSection = $(this);
+
+                    //after leaving section 2
+                    if (index == 2 && direction == 'down') {
+                        setTimeout(function() {
+                            $(".front-end-container").removeClass("fadeInLeft");
+                            console.log('hello');
+                        }, 1000);
+
+                    } else if (index == 2 && direction == 'up') {
+                        setTimeout(function() {
+                            $(".front-end-container").removeClass("fadeInLeft");
+                            console.log('hello');
+                        }, 1000);
+                    }
+                }
+
             });
-
+            var iframeSrc = $(this).attr('href');
+            $('#iframeContainer').fadeOut(1000, function() {
+                $('#iframeContainer iframe').attr('src', iframeSrc);
+                $('#iframeContainer').fadeIn(1000);
+            });
+            return false;
         });
     </script>
 
-
-
-
-    <script>
-        new Vivus('my-svg2', {
-            duration: 300,
-            type: 'async',
-            animTimingFunction: Vivus.EASE
-        }, function() {
-            // $('.test').attr('style', 'fill:black')
-            $('.test').attr('style', 'fill:black')
-
-        });
-
-        // new Vivus('my-svg5', {
-        //     duration: 200,
-        //     type: 'async',
-        //     animTimingFunction: Vivus.EASE
-        // }, function() {
-        //     // $('.test').attr('style', 'fill:black')
-        //     $('.test').attr('style', 'fill:black')
-        //     $('.test2').attr('style', 'fill:white')
-        //     $('.test3').attr('style', 'stroke:white')
-        //
-        // });
-        // new Vivus('my-svg6', {
-        //     duration: 200,
-        //
-        //     animTimingFunction: Vivus.EASE
-        // }, function() {
-        //     // $('.test').attr('style', 'fill:black')
-        //     $('.test').attr('style', 'fill:black')
-        //     $('.test2').attr('style', 'fill:white')
-        //
-        // });
-    </script>
-    <script>
-        new Vivus('my-svg4', {
-            duration: 200,
-            type: 'async',
-            animTimingFunction: Vivus.EASE
-        }, function() {
-            // $('.test').attr('style', 'fill:black')
-            $('.test').attr('style', 'fill:black')
-
-        });
-    </script>
 
 
 
