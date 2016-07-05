@@ -6,29 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
-
-
-
-
-
-
-
     <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/animate.css" />
     <link rel="stylesheet" href="style/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="style/alistair.css" />
 
-
-    <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
-
-
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,500,300,100' rel='stylesheet' type='text/css'>
-
-
-
-
 
     <style>
         .test {
@@ -62,20 +46,11 @@
 <body>
 
 
-    <!-- JAVASCRIPT -->
-    <!-- <div id="header">Header</div> -->
-
     <div id="fullpage">
-
-
-
-
 
         <!-- SECTION 1 Intro -->
 
         <div class="section" id="section1">
-
-            <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
             <div class="container">
 
@@ -99,11 +74,11 @@
 
                             <div class="intro-links">
                                 <h3><a href="#frontend" class="">Front-end</a></h3>
-                                <div class="line"></div>
+                                <!-- <div class="line"></div> -->
                                 <h3><a href="#design" class="">Design</a></h3>
-                                <div class="line"></div>
+                                <!-- <div class="line"></div> -->
                                 <h3><a href="#photography" class="">Photography</a></h3>
-                                <div class="line"></div>
+                                <!-- <div class="line"></div> -->
                                 <h3><a href="#about" class="">About</a></h3>
 
                             </div>
@@ -111,9 +86,9 @@
                     </div>
                 </div>
 
-                <div class="container-right">
-                    <div class="container-right-inner" id="iframeContainer">
-                        <iframe class="iframe-logo" src="./svg/IconLogo.html" style="width: 100%;height:100%; max-width:400px; max-height:400px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                <div class="container-right logo-container animated">
+                    <div class="container-right-inner animated " id="iframeContainer">
+                        <iframe id="iframeContainer-logo" class="animated" src="./svg/IconLogo.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
                     </div>
                 </div>
             </div>
@@ -135,163 +110,676 @@
                                     <h1>Front-End</h1>
                                 </div>
                                 <div class="intro-title-thin">
-                                    <h5 class="intro-title-minor">Web Development</h5>
+                                    <h5 class="intro-title-minor">+ BackEnd Web Development</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="container-left-intro">
-
                             <div class="container-left-intro-inner ">
-
                                 <div class="section-links">
                                     <a href="#frontend" class=""><h5>Snapper</h5>
                                       <p>Photo Sharing Application</p></a>
-
-
                                     <a href="#design" class=""><h5>WDI Conference</h5>
                                         <p>Sign-Up Conference Website</p></a>
-
-
                                     <a href="#photography" class=""><h5>SmallTalk</h5>
                                           <p>Conversation Starter App</p></a>
-
                                     <a href="#photography" class=""><h5>Tic Tac Toe</h5>
-                                            <p>Conversation Starter App</p></a>
-
-
+                                            <p>A game of wits</p></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="container-right">
-                        <div class="container-right-inner" id="iframeContainer">
-                            <iframe src="./svg/IconFront.html" style="width: 100%;height:100%; max-width:300px; max-height:300px; display:block; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        <div class="container-right-inner" >
+                            <iframe id="iframeContainer-frontend" class="animated" src="./svg/IconFront.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
                         </div>
                     </div>
                 </div>
-
-
-
-
             </div>
             <div class="slide" id="slide2" data-anchor="slide2">
                 <div class="container">
-
                     <div class="container-left">
-
                         <div class="container-left-intro">
-
                             <div class="container-left-intro-inner">
                                 <div class="intro-title-bold">
-
+                                    <img class="secton-image-icon" src="./images/snapper0.png">
                                     <h2>Snapper</h2>
                                 </div>
                                 <div class="intro-title-thin">
-                                    <h5 class="intro-title-minor">Photo Sharing Application</h5>
+                                    <h5 class="section-content-title-minor">Photo Sharing Application</h5>
                                 </div>
-                                <div class="intro-title-thin">
-                                    <a href=""><p class="<intro-title-link></intro-title-link>s"><i class="fa fa-github fax2" aria-hidden="true"></i>github - Snapper</p></a>
-                                    <a href="">
-                                        <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i>heroku - Snapper</p>
-                                    </a>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="container-left-intro">
-
                             <div class="container-left-intro-inner ">
-
                                 <div class="section-content-title">
-
                                     <p class='section-content-description'><strong>Snapper</strong> is a photo uploading website where users can view other peoples photos, share and orangise them into albums.
                                         <br>
                                         <br> Built on <strong>Ruby Sinatra</strong> connecting to a <strong>PSQL Database</strong> to save data. The front-end used <strong>Bootstrap
-                                            3 </strong> for the responsive grid and <strong> CSS animate.</strong></p>
-
+                                            3 </strong> for the responsive grid and <strong> CSS animate.</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                     <div class="container-right">
                         <div class="owl-carousel owl-background-red">
-                            <div><img class="image-responsive" src="./images/snapper1.png"> </div>
-                            <div> <img class="image-responsive" src="./images/snapper2.png"></div>
                             <div> <img class="image-responsive" src="./images/snapper3.png"> </div>
+                            <div> <img class="image-responsive" src="./images/snapper2.png"></div>
+                            <div><img class="image-responsive" src="./images/snapper1.png"> </div>
                             <div><img class="image-responsive" src="./images/snapper0.png"> </div>
-
-
                         </div>
-
-                        <!-- <div class="section-content-image-grid3">
-                            <img class="image-responsive" src="./images/snapper1.png">
-                        </div>
-                        <div class="section-content-image-grid3">
-                            <img class="image-responsive" src="./images/snapper2.png">
-                        </div>
-                        <div class="section-content-image-grid3">
-                            <img class="image-responsive" src="./images/snapper3.png">
-                        </div> -->
                     </div>
                 </div>
             </div>
 
             <div class="slide" id="slide3" data-anchor="slide3">
-                <h1>Slide 3</h1>
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/conf0a.jpg">
+                                    <h2>WDI Conference</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Sign-Up Conference Website</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>WDI Group Conf</strong>, an app that can sign up users to a conference, find events and attend them.
+                                        <br>
+                                        <br> We implemented a system for <strong>users to meet up</strong> with other users who did not know each other.
+                                        <br>
+                                        <br> The aim was to get the users networking with new people. We build the app on <strong> Ruby on Rails</strong> with <strong> materialize CSS Framework, HandleBars, AJAX, APIs</strong> and <strong> jQuery </strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/conf1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/conf2.png"></div>
+                            <div><img class="image-responsive" src="./images/conf3.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide" id="slide3" data-anchor="slide4">
-                <h1>Slide 4</h1>
-            </div>
-            <div class="slide" id="slide3" data-anchor="slide5">
-                <h1>Slide 5</h1>
-            </div>
-        </div>
 
+            <div class="slide" id="slide4" data-anchor="slide4">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/smalltalk3.jpg">
+                                    <h2>SmallTalk</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Conversation Starter App</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>SmallTalk</strong> is a app designed to help users start conversations by asking them questions and displaying facts
+                                        <br>
+                                        <br>eg. “When was your first time overseas?” or “Did you know cats were worshiped by the ancient Egyptians”.
+                                        <br>
+                                        <br> Built on <strong>Ruby</strong> on Rails with an <strong>ActiveRecord PSQL Database</strong> with <strong>API</strong> integration and <strong>AJAX </strong> calls. Front-end used <strong>Materialize CSS </strong>                                        Framework and <strong>Owl Carousel JS</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive-height" src="./images/smalltalk0.png"> </div>
+                            <div> <img class="image-responsive-height" src="./images/smalltalk1.png"></div>
+                            <div><img class="image-responsive-height" src="./images/smalltalk2.png"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="slide5" data-anchor="slide5">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/tic0.jpg">
+                                    <h2>Tic Tac Toe</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">A game of wits</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>Tic Tac Toe</strong>, a game built using <strong> HTML, CSS</strong> and <strong> Javascript.</strong>
+
+                                  <br><br>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/tic1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/tic2.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
         <!-- SECTION 3 Design -->
 
         <div class="section" id="section3">
             <div class="slide" id="slide2" data-anchor="slide1">
+                <div class="container">
 
+                    <div class="container-left animated design-container">
+
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <h1>Design</h1>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="intro-title-minor">Graphics + Animation</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-links">
+                                    <a href="#frontend" class=""><h5>personal</h5>
+                                      <p>Vectors</p></a>
+                                    <a href="#design" class=""><h5>freelance Clients</h5>
+                                        <p>Ads + WireFrames</p></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="container-right-inner" >
+                            <iframe id="iframeContainer-design" class="animated" src="./svg/IconDesign.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="slide" id="slide2" data-anchor="slide2">
-                <h1>Slide 2</h1>
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon" src="./images/snapper0.png">
+                                    <h2>Snapper</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Photo Sharing Application</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>Snapper</strong> is a photo uploading website where users can view other peoples photos, share and orangise them into albums.
+                                        <br>
+                                        <br> Built on <strong>Ruby Sinatra</strong> connecting to a <strong>PSQL Database</strong> to save data. The front-end used <strong>Bootstrap
+                                            3 </strong> for the responsive grid and <strong> CSS animate.</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/snapper3.png"> </div>
+                            <div> <img class="image-responsive" src="./images/snapper2.png"></div>
+                            <div><img class="image-responsive" src="./images/snapper1.png"> </div>
+                            <div><img class="image-responsive" src="./images/snapper0.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="slide" id="slide3" data-anchor="slide3">
-                <h1>Slide 3</h1>
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/conf0a.jpg">
+                                    <h2>WDI Conference</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Sign-Up Conference Website</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>WDI Group Conf</strong>, an app that can sign up users to a conference, find events and attend them.
+                                        <br>
+                                        <br> We implemented a system for <strong>users to meet up</strong> with other users who did not know each other.
+                                        <br>
+                                        <br> The aim was to get the users networking with new people. We build the app on <strong> Ruby on Rails</strong> with <strong> materialize CSS Framework, HandleBars, AJAX, APIs</strong> and <strong> jQuery </strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/conf1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/conf2.png"></div>
+                            <div><img class="image-responsive" src="./images/conf3.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide" id="slide3" data-anchor="slide4">
-                <h1>Slide 4</h1>
+
+            <div class="slide" id="slide4" data-anchor="slide4">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/smalltalk3.jpg">
+                                    <h2>SmallTalk</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Conversation Starter App</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>SmallTalk</strong> is a app designed to help users start conversations by asking them questions and displaying facts
+                                        <br>
+                                        <br>eg. “When was your first time overseas?” or “Did you know cats were worshiped by the ancient Egyptians”.
+                                        <br>
+                                        <br> Built on <strong>Ruby</strong> on Rails with an <strong>ActiveRecord PSQL Database</strong> with <strong>API</strong> integration and <strong>AJAX </strong> calls. Front-end used <strong>Materialize CSS </strong>                                        Framework and <strong>Owl Carousel JS</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive-height" src="./images/smalltalk0.png"> </div>
+                            <div> <img class="image-responsive-height" src="./images/smalltalk1.png"></div>
+                            <div><img class="image-responsive-height" src="./images/smalltalk2.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide" id="slide3" data-anchor="slide5">
-                <h1>Slide 5</h1>
+
+            <div class="slide" id="slide5" data-anchor="slide5">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/tic0.jpg">
+                                    <h2>Tic Tac Toe</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">A game of wits</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>Tic Tac Toe</strong>, a game built using <strong> HTML, CSS</strong> and <strong> Javascript.</strong>
+
+                                  <br><br>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/tic1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/tic2.png"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
 
         <!-- SECTION 4 Photo -->
 
-        <div class="section" id="section3">
+        <div class="section" id="section4">
             <div class="slide" id="slide2" data-anchor="slide1">
+                <div class="container">
 
+                    <div class="container-left animated photo-container">
+
+                        <div class="container-left-intro">
+
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <h1>Photos</h1>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="intro-title-minor">Snaps + travel</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-links">
+                                    <a href="#frontend" class=""><h5>People</h5>
+                                      <p>Portaits + Candid</p></a>
+                                    <a href="#design" class=""><h5>Nature</h5>
+                                        <p>Hiking + camping</p></a>
+                                        <a href="#design" class=""><h5>Architecture</h5>
+                                            <p>Cities + Structure</p></a>
+                                            <a href="#design" class=""><h5>art</h5>
+                                                <p>Sculptures + Objects</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="container-right-inner" >
+                            <iframe id="iframeContainer-photo" class="animated" src="./svg/IconPhoto.html" style="width: 100%;height:100%; max-width:600px; max-height:600px; display:none; overflow:hidden; border: none; text-align:center;" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="slide" id="slide2" data-anchor="slide2">
-                <h1>Slide 2</h1>
+                <div class="container">
+                    <!-- <h1 class="owl-2-text">People</h1> -->
+                        <div class="owl-carousel owl-2">
+                            <div> <img class="image-responsive" src="./images/snapper3.png"> </div>
+                            <div> <img class="image-responsive" src="./images/snapper2.png"></div>
+                            <div><img class="image-responsive" src="./images/snapper1.png"> </div>
+                            <div><img class="image-responsive" src="./images/snapper0.png"> </div>
+                        </div>
+
+                </div>
             </div>
 
             <div class="slide" id="slide3" data-anchor="slide3">
-                <h1>Slide 3</h1>
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/conf0a.jpg">
+                                    <h2>WDI Conference</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Sign-Up Conference Website</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>WDI Group Conf</strong>, an app that can sign up users to a conference, find events and attend them.
+                                        <br>
+                                        <br> We implemented a system for <strong>users to meet up</strong> with other users who did not know each other.
+                                        <br>
+                                        <br> The aim was to get the users networking with new people. We build the app on <strong> Ruby on Rails</strong> with <strong> materialize CSS Framework, HandleBars, AJAX, APIs</strong> and <strong> jQuery </strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/conf1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/conf2.png"></div>
+                            <div><img class="image-responsive" src="./images/conf3.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide" id="slide3" data-anchor="slide4">
-                <h1>Slide 4</h1>
+
+            <div class="slide" id="slide4" data-anchor="slide4">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/smalltalk3.jpg">
+                                    <h2>SmallTalk</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">Conversation Starter App</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>SmallTalk</strong> is a app designed to help users start conversations by asking them questions and displaying facts
+                                        <br>
+                                        <br>eg. “When was your first time overseas?” or “Did you know cats were worshiped by the ancient Egyptians”.
+                                        <br>
+                                        <br> Built on <strong>Ruby</strong> on Rails with an <strong>ActiveRecord PSQL Database</strong> with <strong>API</strong> integration and <strong>AJAX </strong> calls. Front-end used <strong>Materialize CSS </strong>                                        Framework and <strong>Owl Carousel JS</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive-height" src="./images/smalltalk0.png"> </div>
+                            <div> <img class="image-responsive-height" src="./images/smalltalk1.png"></div>
+                            <div><img class="image-responsive-height" src="./images/smalltalk2.png"> </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="slide" id="slide3" data-anchor="slide5">
-                <h1>Slide 5</h1>
+
+            <div class="slide" id="slide5" data-anchor="slide5">
+                <div class="container">
+                    <div class="container-left">
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner">
+                                <div class="intro-title-bold">
+                                    <img class="secton-image-icon rounded-image" src="./images/tic0.jpg">
+                                    <h2>Tic Tac Toe</h2>
+                                </div>
+                                <div class="intro-title-thin">
+                                    <h5 class="section-content-title-minor">A game of wits</h5>
+                                </div>
+                                <div class="section-content-links">
+                                    <div style="display:inline-block; margin-right: 20px;">
+                                        <a href="">
+                                            <p class="<intro-title-link"><i class="fa fa-github fax2" aria-hidden="true"></i>Github</p>
+                                        </a>
+                                    </div>
+                                    <div style="display:inline-block">
+                                        <a href="">
+                                            <p class="intro-title-links"><i class="fa fa-user fax2" aria-hidden="true"></i> Heroku
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-left-intro">
+                            <div class="container-left-intro-inner ">
+                                <div class="section-content-title">
+                                    <p class='section-content-description'><strong>Tic Tac Toe</strong>, a game built using <strong> HTML, CSS</strong> and <strong> Javascript.</strong>
+
+                                  <br><br>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right">
+                        <div class="owl-carousel owl-background-red">
+                            <div> <img class="image-responsive" src="./images/tic1.png"> </div>
+                            <div> <img class="image-responsive" src="./images/tic2.png"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
         </div>
+
+
 
 
     </div>
@@ -300,54 +788,108 @@
 
 
     <!-- JAVASCRIPT -->
-    <!-- <script src="javascript/jquery.js"></script>
-     -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-
-
     <script type="text/javascript" src="javascript/scrolloverflow.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="javascript/jquery.fullPage.min.js"></script>
     <script src="javascript/jquery.easings.min.js"></script>
     <script src="javascript/owl.carousel.min.js"></script>
 
-
-
-
-
-
-
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage'],
-                sectionsColor: ['#8FB98B', '#DE564B', '#EAE1C0', '#8AADDB'],
+                sectionsColor: ['#ffb732', '#2e90eb', '#9466cd', '#2ab162'],
                 slidesNavigation: true,
                 afterLoad: function(anchorLink, index) {
                     var loadedSection = $(this);
 
                     //using index
+                    if (index == 1) {
+
+                        $(".logo-container").addClass("fadeIn");
+                        $( '#iframeContainer-logo' ).css( 'display', 'block').addClass("fadeIn");
+                        $( '#iframeContainer-logo' ).attr( 'src', function ( i, val ) { return val; });
+
+                    }
                     if (index == 2) {
 
                         $(".front-end-container").addClass("fadeInLeft");
+                        $( '#iframeContainer-frontend' ).attr( 'src', function ( i, val ) { return val; });
+                        $( '#iframeContainer-frontend' ).css( 'display', 'block').addClass("fadeIn");
                     }
-                    if (index == 3) {}
+                    if (index == 3) {
+
+                        $(".design-container").addClass("fadeInLeft");
+                        $( '#iframeContainer-design' ).attr( 'src', function ( i, val ) { return val; });
+                        $( '#iframeContainer-design' ).css( 'display', 'block').addClass("fadeIn");
+                    }
+                    if (index == 4) {
+
+                        $(".photo-container").addClass("fadeInLeft");
+                        $( '#iframeContainer-photo' ).attr( 'src', function ( i, val ) { return val; });
+                        $( '#iframeContainer-photo' ).css( 'display', 'block').addClass("fadeIn");
+                    }
                 },
                 onLeave: function(index, nextIndex, direction) {
                     var leavingSection = $(this);
 
                     //after leaving section 2
+
+                    if (index == 1 && direction == 'down') {
+                        setTimeout(function() {
+                            $(".logo-container").removeClass("fadeIn");
+                              $( '#iframeContainer-logo' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+
+                    } else if (index == 1 && direction == 'up') {
+                        setTimeout(function() {
+                            $(".logo-container").removeClass("fadeIn");
+                            $( '#iframeContainer-logo' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+                    }
                     if (index == 2 && direction == 'down') {
                         setTimeout(function() {
                             $(".front-end-container").removeClass("fadeInLeft");
+                              $( '#iframeContainer-frontend' ).css( 'display', 'none').removeClass("fadeIn");
                             console.log('hello');
                         }, 1000);
 
                     } else if (index == 2 && direction == 'up') {
                         setTimeout(function() {
                             $(".front-end-container").removeClass("fadeInLeft");
+                            $( '#iframeContainer-frontend' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+                    }
+                    if (index == 3 && direction == 'down') {
+                        setTimeout(function() {
+                            $(".design-container").removeClass("fadeInLeft");
+                              $( '#iframeContainer-design' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+
+                    } else if (index == 3 && direction == 'up') {
+                        setTimeout(function() {
+                            $(".design-container").removeClass("fadeInLeft");
+                            $( '#iframeContainer-design' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+                    }
+                    if (index == 4 && direction == 'down') {
+                        setTimeout(function() {
+                            $(".photo-container").removeClass("fadeInLeft");
+                              $( '#iframeContainer-photo' ).css( 'display', 'none').removeClass("fadeIn");
+                            console.log('hello');
+                        }, 1000);
+
+                    } else if (index == 4 && direction == 'up') {
+                        setTimeout(function() {
+                            $(".photo-container").removeClass("fadeInLeft");
+                            $( '#iframeContainer-photo' ).css( 'display', 'none').removeClass("fadeIn");
                             console.log('hello');
                         }, 1000);
                     }
